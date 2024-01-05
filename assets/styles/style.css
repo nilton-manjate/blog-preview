@@ -46,7 +46,7 @@ main {
 
 /* Content section */
 .content {
-  margin: 20px 0px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -69,6 +69,16 @@ main {
 article h1 {
   font-size: 23px;
   margin-bottom: 20px;
+}
+
+article h1 a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+article h1 a:hover {
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 article p {
