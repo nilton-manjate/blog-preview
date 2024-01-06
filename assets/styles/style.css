@@ -19,9 +19,9 @@
 /* Body */
 body {
   height: 100vh;
-  display: flex;
+  display: grid;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
   background-color: var(--yellow);
   font-family: var(--fig);
   
@@ -74,11 +74,13 @@ article h1 {
 article h1 a {
   color: var(--black);
   text-decoration: none;
+  transition: .6s;
 }
 
 article h1 a:hover {
   color: var(--yellow);
   cursor: pointer;
+  transition: .9s;
 }
 
 article p {
@@ -97,6 +99,31 @@ article p {
 
 .author img {
   width: 40px;
+}
+
+/* Footer */
+footer {
+  align-self: end;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: var(--black);
+}
+
+footer a {
+  color: var(--black);
+  font-weight: 800;
+  text-decoration: none;
+  padding: 2px;
+  transition: 1s;
+}
+
+footer a:hover {
+  cursor: pointer;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  transition: .8s;
 }
 
 /* Style for larger screens */
