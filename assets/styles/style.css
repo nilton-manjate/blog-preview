@@ -127,3 +127,8 @@ footer a:hover {
 }
 
 /* Style for larger screens */
+@media only screen and (min-width: 600px) {
+  main {
+    width: 350px;
+  }
+}
