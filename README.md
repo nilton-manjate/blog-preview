@@ -21,6 +21,12 @@ Users should be able to:
 
 - See hover and focus states for all interactive elements on the page
 
+### Links
+
+
+- Solution URL: [stats-preview](https://https://github.com/nilton-manjate/blog-preview)
+- Live Site URL: [GitHub Pages](https://nilton-manjate.github.io/blog-preview/)
+
 ## My process
 
 ### Built with
